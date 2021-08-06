@@ -1,0 +1,1 @@
+This website is made for project only and it does not have any copyright issue.

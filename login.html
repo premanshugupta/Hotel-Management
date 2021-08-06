@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name="description"
+        content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
+    <meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
+    <meta name="author" content="Sara Soueidan for Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <!--   Menu Bar  -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component2.css" />
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7243260-2']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Top Navigation -->
+        <div class="codrops-top clearfix">
+            <!-- <a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/CreativeLinkEffects/"><span>Previous Demo</span></a> -->
+            <!-- <span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16114"><span>Back to the Codrops Article</span></a></span> -->
+        </div>
+        <div class="component">
+            <div class="containe img-hover-zoom img-hover-zoom--colorize">
+                <img src="images/jlwa.jpg" alt="Snow" style="width:100%; height: 20%;">
+                <div class="centered">
+                    <h3 id="banner_text_center">Log in</h3>
+                </div>
+                <div class="top-left"><img class="logo" src="images\logo1.png" alt=""></div>
+            </div>
+            <!-- Start Nav Structure -->
+            <button class="cn-button" id="cn-button">Menu</button>
+            <div class="cn-wrapper" id="cn-wrapper">
+                <ul>
+                    <li><a href="index2.html"><span>Home</span></a></li>
+                    <li><a href="contact.html"><span>Contact</span></a></li>
+                    <li><a href="aobut.html"><span>About</span></a></li>
+                    <li><a href="room.html"><span>Rooms</span></a></li>
+                    <li><a href="feedback.html"><span>Feedbaack</span></a></li>
+                    <li><a href="policy.html"><span>Policy</span></a></li>
+                    <li><a href="login.html"><span>login</span></a></li>
+                </ul>
+            </div>
+            <!-- End of Nav Structure -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 style="color: #8c8c8c; padding-top: 5%;text-align: center;"><i> ABOUT THE COVID-19. For
+                                further information
+                                please <span><a href="" style="text-decoration:none;color: #8c8c8c;">click
+                                        here</a></span></i></h1>
+
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Map and Contact Form -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top: 10%;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7158.728051936653!2d78.18011502458157!3d26.21735893372784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c6a144e6d5d1%3A0x3a5a9df1c8032b93!2sKampoo%2C%20Gwalior%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1628238816758!5m2!1sen!2sin"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <img src="images\peacock.gif" alt="">
+                    <div class="col-md-6">
+                        <!-- <div class="col-md-6" style="margin-top:10%;"> -->
+                        <div class="wrapper">
+                            <form class="form login_form">
+                                <div class="pageTitle title">Sign Up </div>
+                                <div class="secondaryTitle title">Please fill this form to sign up.</div>
+                                <input type="text" class="name formEntry" placeholder="Name" />
+                                <input type="text" class="email formEntry" placeholder="Email" />
+                                <textarea class="message formEntry" placeholder="Message"></textarea>
+                                <input type="checkbox" class="termsConditions" value="Term">
+                                <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms
+                                        of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                                <button class="submit formEntry" onclick="thanks()">Submit</button>
+                            </form>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="foot">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="wrapper">
+                                <ul>
+                                    <li class="facebook">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <div class="slider">
+                                            <p>facebook</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="twitter">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        <div class="slider">
+                                            <p>twitter</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="instagram">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <div class="slider">
+                                            <p>instagram</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="google">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                        <div class="slider">
+                                            <p>google</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="whatsapp">
+                                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                        <div class="slider">
+                                            <p>whatsapp</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 addres">
+                            <h2> Cap Rocat </h2>
+                            <h2> Ctra. d’enderrocat, s/n </h2>
+                            <h2>07609 Cala Blava, Mallorca. España.</h2>
+                            <h2>Tel.: (+34) 971 74 78 78</h2>
+                            <h2>info@caprocat.com</h2>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/polyfills.js"></script>
+        <script src="js/demo2.js"></script>
+        <!-- For the demo ad only -->
+        <script src="http://tympanus.net/codrops/adpacks/demoad.js"></script>
+
+</body>
+
+</html>
